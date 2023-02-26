@@ -1,0 +1,47 @@
+/*declare color palate
+taken from Ethereum logo colors*/
+
+:root {
+    --blue1: #48cbd9;
+    --blue2: #79e7e7;
+    --blue3: #14044d;
+    --blue4: #37367b;
+    --gray1: #c6c5d4;
+    --gray2: #716b94;
+}
+
+
+/*background color*/
+html {
+    background-color: var(--gray2);
+    color: var(--blue3);
+}
+
+#content {
+    background-color: var(--gray1);
+    margin: 0px 100px;
+    border: 5px solid var(--blue3);
+}
+#title {
+    color: var(--blue3);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.search {
+}
+
+#search {
+    padding: 20px;
+    text-align: center;
+}
+
+#information {
+    padding: 20px;
+}
+
+#ethereum-logo {
+    width: 20px;
+    height: 20px;
+}

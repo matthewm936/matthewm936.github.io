@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+    <body id="content">
+        <link rel="stylesheet" href="style.css">
+        <div>
+            <div id="title">
+                <img id="ethereum-logo" src="ethereum-logo-transparent.png">
+                Ether Balance Explorer
+            </div>
+            
+            <div class="search" id="search">
+                <input id="searchBar" type="text" placeholder="input Ethereum address">
+                <button onclick="search()">search</button>
+            </div>
+
+            <div id="information" onload="displayVersionAndBlock">
+                <div>Ethereum Mainnet</div>
+                <div>Remote node from getBlock.io</div>
+                <div id="web3-version">web3.js version: </div>
+                <div id="current-block">current block: </div>
+            </div>
+        
+        </div>
+
+        <script src="web3.min.js"></script>
+        <script src="web3-object.js"></script>
+        <script src="web3-get-block.js"></script>
+        <script src="search.js"></script>
+    </body>
+    </html>
